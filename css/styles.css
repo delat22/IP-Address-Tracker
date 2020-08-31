@@ -1,0 +1,99 @@
+
+
+
+/******GENERAL******/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    background-color:hsl(0, 0%, 59%);
+    width: 100vw;
+    /*overflow-x: hidden;*/
+}
+
+img{
+    max-width: 100%;
+}
+
+/*****Container-1******/
+.container-1{
+    background-color: #4879d4;
+    background-image: url('../images/pattern-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top{
+    padding: 2em 0 5em 0;
+    text-align: center;
+}
+
+form{
+    margin-top: 2em;
+}
+
+form > input{
+    padding: 1em 0.5em;
+    width: 40%;
+    border: 1px solid hsl(0, 0%, 59%);
+    border-radius: 12px 0 0 12px;
+    outline: none;
+}
+
+button{
+    background-color: black;
+    border: 1px solid black;
+    padding: 0.8em 1em 1em 1em;
+    margin-left: -0.5em;
+    border-radius: 0 12px 12px 0;
+    outline: none;
+}
+
+/***Container-2****/
+
+.container-2{
+    background-color: #ffffff;
+    width: 80%;
+    position: relative;
+    bottom: 2em;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+}
+
+#middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.items{
+    padding: 1em 2em;
+   
+}
+
+.group {
+    border-left: 1px solid hsl(0, 0%, 59%);
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 0.75em;
+    color: hsl(0, 0%, 59%);
+    margin-left: 2em;
+}
+
+.info{
+    padding: 1em;
+    margin-left: 0.8em;
+}
+
+.container-3{
+    
+}
