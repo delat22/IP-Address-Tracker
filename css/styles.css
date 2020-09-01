@@ -15,12 +15,14 @@ html{
 body{
     background-color:hsl(0, 0%, 59%);
     width: 100vw;
+    color: hsl(0, 0%, 17%);
     /*overflow-x: hidden;*/
 }
 
 img{
     max-width: 100%;
 }
+
 
 /*****Container-1******/
 .container-1{
@@ -33,6 +35,10 @@ img{
 #top{
     padding: 2em 0 5em 0;
     text-align: center;
+}
+
+#top>div>h1{
+    color: #ffffff;
 }
 
 form{
@@ -62,9 +68,10 @@ button{
     background-color: #ffffff;
     width: 80%;
     position: relative;
-    bottom: 2em;
+    bottom: 3.5em;
     margin: 0 auto;
     border: 1px solid #ffffff;
+    border-radius: 10px;
 }
 
 #middle{
@@ -74,7 +81,7 @@ button{
 
 
 .items{
-    padding: 1em 2em;
+    padding: 1em 10em 1em 0;
    
 }
 
@@ -92,8 +99,11 @@ button{
 .info{
     padding: 1em;
     margin-left: 0.8em;
+
 }
 
 .container-3{
     
 }
+
+#mapid { height: 300px; }
