@@ -17,6 +17,7 @@ body{
     width: 100vw;
     color: hsl(0, 0%, 17%);
     /*overflow-x: hidden;*/
+   
 }
 
 img{
@@ -67,11 +68,11 @@ button{
 .container-2{
     background-color: #ffffff;
     width: 80%;
-    position: relative;
-    bottom: 3.5em;
-    margin: 0 auto;
+    position: absolute;
+    margin: -2em 8em;
     border: 1px solid #ffffff;
     border-radius: 10px;
+    z-index: 1;
 }
 
 #middle{
@@ -103,7 +104,7 @@ button{
 }
 
 .container-3{
-    
+    z-index: 0;
 }
 
-#mapid { height: 300px; }
+#mapid { height: 400px;}

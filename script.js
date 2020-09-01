@@ -1,4 +1,6 @@
 
+
+//Fechting Leafjs Map API
 var mymap = L.map('mapid').setView([51.505, -0.09], 13);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -7,7 +9,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     id: 'mapbox/streets-v11',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: 'your.mapbox.access.token'
+    accessToken: 'pk.eyJ1IjoiZGVsYXRiYWJhIiwiYSI6ImNrZWs5YWoxejEyZ3cycW5waWMwc2VkcHkifQ.hDx7OrGBMvKyLlHxGIF7eQ'
 }).addTo(mymap);
-
 var marker = L.marker([51.5, -0.09]).addTo(mymap);
