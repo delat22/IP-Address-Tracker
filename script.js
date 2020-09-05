@@ -11,8 +11,8 @@ const timezone = document.getElementById('timezone');
 const isp = document.getElementById('isp');
 
 
-submitButton.addEventListener('click', function(event) {
-
+submitButton.addEventListener('click', ($event) => {
+  $event.preventDefault();
   const inputText = inputValue.Value;
   
   var result = fetch(`https://geo.ipify.org/api/v1?apiKey=at_DuE1mQRJGaRuY1kbYgW6ggKTBGMDw&ipAddress=${inputText}`);
